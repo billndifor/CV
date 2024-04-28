@@ -191,7 +191,23 @@ button{
 }
 
 
-
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    .header, .content, .left-side, .right-side {
+        flex-direction: column;
+    }
+    .header img {
+        margin: 0 auto; /* Center the image */
+    }
+    .header-text, .left-side, .right-side {
+        width: 100%;
+    }
+    .skills, .education, .experience {
+        padding: 10px;
+    }
+}
 
 
 
